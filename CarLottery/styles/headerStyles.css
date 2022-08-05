@@ -1,0 +1,75 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+header {
+    width: 91%;
+    height: 40px;
+    margin: 30px auto 26px auto;
+    background-color: burlywood;
+}
+
+header .main-logo {
+    float: left;
+    height: 20px;
+    padding: 10px
+}
+
+header .header-buttons {
+    height: 40px;
+    float: right;
+}
+
+header .login-button {
+    width: 40px;
+    font-family: 'OpenSans';
+    font-weight: 600;
+    font-size: 16px;
+    color: #FF2E63;
+    margin: 0 30px;
+}
+
+header .login-button-background {
+    float: right; 
+    padding-top: 8px;
+}
+
+header .register-button {
+    display: block;
+    height: 40px;
+    width: 105px;
+    float: right;
+    background: #FF2E63;
+    border-radius: 5px;
+    font-family: 'OpenSans';
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+header .register-button-text {
+    padding-left: 22px;
+    line-height: 40px;
+}
+
+header .menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header .list-elem {
+    display: inline;
+    font-family: 'OpenSans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    margin: 0 23px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
